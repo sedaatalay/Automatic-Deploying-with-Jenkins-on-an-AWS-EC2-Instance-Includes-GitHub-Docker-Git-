@@ -10,8 +10,8 @@ In this article, I will show you how we can use a powerful tool called Jenkins t
   
 ## What is Jenkins?
 In addition to automating other routine development tasks, Jenkins provides a simple way to set up a continuous integration or continuous delivery (CI/CD) environment for virtually any language and source code repository combination that uses pipelines. While Jenkins doesn't eliminate the need to create scripts for individual steps, it does offer a faster and more robust way to integrate your entire chain of build, test, and deployment tools than you can easily build yourself.
-  
-## For example, you can set up Jenkins to automatically detect code commit in a repository and automatically trigger commands either creating a Flask application using Docker building a Docker image from a Dockerfile, running unit tests or push an image to a container registry or deploy it to the production server without manually doing anything.
+
+For example, you can set up Jenkins to automatically detect code commit in a repository and automatically trigger commands either creating a Flask application using Docker building a Docker image from a Dockerfile, running unit tests or push an image to a container registry or deploy it to the production server without manually doing anything.
 Let's look basic concept we need to know in order to perform some automation in our project. 
 
 
