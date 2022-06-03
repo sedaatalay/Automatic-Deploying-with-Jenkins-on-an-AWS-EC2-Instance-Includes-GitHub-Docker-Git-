@@ -53,8 +53,7 @@ Install Jenkins, Git and Docker in your instance. Startup a Jenkins server and i
   
 This is part 2 of my series on deploying Jenkins to create an efficient CI/CD Pipeline. 
 In part one, I covered installing and launching Jenkins,Git,Docker,Plugins on a AWS EC2 instance. You can find part one link below:
-
----------
+  - https://github.com/sedaatalay/How-to-Install-Jenkins-Git-Docker-on-Amazon-EC2-Instance
   
 - Push the code to a repository, in this article I used Github. You can find the code for this article here.
   - https://github.com/sedaatalay/jenk_deneme
