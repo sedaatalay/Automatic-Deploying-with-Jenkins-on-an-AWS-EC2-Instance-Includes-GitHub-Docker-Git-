@@ -105,7 +105,9 @@ In the Branch Specifier, you can select master or any branch your code repositor
 <img width="858" alt="Ekran Resmi 2022-06-02 19 47 11" src="https://user-images.githubusercontent.com/91700155/171910232-9b8cfade-de31-48c9-a831-9d574d038c47.png">
 
 - It ran through all the stages and you should see a successful run of the job.
+  
 If you get an error in this "Build Docker Image" section, don't forget to add the following to the command line.
+  
  ```console
 sudo chmod 666 /var/run/docker.sock
 ```
