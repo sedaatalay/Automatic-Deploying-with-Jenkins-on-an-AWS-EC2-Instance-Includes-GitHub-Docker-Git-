@@ -1,7 +1,7 @@
 # Automatic Deploying with Jenkins on an AWS EC2 instance (Includes GitHub + Docker + Git)
-<p> <br/ >
+<p> <br/ > <p>
 
-## To deploying model we try to best model accuracy. And after tuning some of the parameters and adding some more data, you expect had better accuracy than the previous model built. That' s mean you plan to deploy this model and you have to go through the trouble of building, testing and deploying the model to production again which is a lot of work.
+To deploying model we try to best model accuracy. And after tuning some of the parameters and adding some more data, you expect had better accuracy than the previous model built. That' s mean you plan to deploy this model and you have to go through the trouble of building, testing and deploying the model to production again which is a lot of work.
 You can tedious to manually run tests weekly, or even daily, which is where a CI/CD or Continuous Integration/ Continuous Deployment Pipeline like Jenkins comes in. Jenkins allows us to automatically run tests weekly, daily, hourly, or even on commit to a repository. 
 In this article, I will show you how we can use a powerful tool called Jenkins to automate this process.
 
