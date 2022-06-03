@@ -105,13 +105,13 @@ In the Branch Specifier, you can select master or any branch your code repositor
 <img width="858" alt="Ekran Resmi 2022-06-02 19 47 11" src="https://user-images.githubusercontent.com/91700155/171910232-9b8cfade-de31-48c9-a831-9d574d038c47.png">
 
 - It ran through all the stages and you should see a successful run of the job.
- If you get an error in this "Build Docker Image" section, don't forget to add the following to the command line.
+If you get an error in this "Build Docker Image" section, don't forget to add the following to the command line.
  ```console
 sudo chmod 666 /var/run/docker.sock
 ```
 <img width="1225" alt="Ekran Resmi 2022-06-03 20 11 43" src="https://user-images.githubusercontent.com/91700155/171913186-edc790ff-8910-490d-8710-135e6a94c169.png">
   
-- When you do little change in your code repository and push. If you go back to Jenkins you’ll see that it has already detected the changes made already and it automatically triggers another build.
+When you do little change in your code repository and push. If you go back to Jenkins you’ll see that it has already detected the changes made already and it automatically triggers another build.
 
 And that's how you can use Jenkins to automate these processes. 
 
