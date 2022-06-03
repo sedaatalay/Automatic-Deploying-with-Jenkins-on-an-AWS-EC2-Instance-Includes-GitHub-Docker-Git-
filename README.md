@@ -56,9 +56,9 @@ In part one, I covered installing and launching Jenkins,Git,Docker on a AWS EC2 
 
 ---------
   
-Push the code to a repository, in this article I used Github. You can find the code for this article here.
+- Push the code to a repository, in this article I used Github. You can find the code for this article here.
 
-- https://github.com/sedaatalay/jenk_deneme
+ - https://github.com/sedaatalay/jenk_deneme
   
 My working directory:
 .
@@ -71,15 +71,29 @@ My working directory:
 
 <img width="203" alt="Ekran Resmi 2022-06-03 19 19 53" src="https://user-images.githubusercontent.com/91700155/171905592-f2ea6017-d0d1-4da9-b48b-413b66369b07.png">
   
-Next, we have to tell Jenkins to start building the pipeline whenever a change is made to the code repository. To do this, you need to add the Jenkins webhook to the GitHub repository for Github to contact Jenkins if there is a change in the code. 
+- Next, we have to tell Jenkins to start building the pipeline whenever a change is made to the code repository. To do this, you need to add the Jenkins webhook to the GitHub repository for Github to contact Jenkins if there is a change in the code. 
 Click on settings in your code repository:
   
+<img width="984" alt="Ekran Resmi 2022-06-03 19 22 17" src="https://user-images.githubusercontent.com/91700155/171906611-1af366fe-1f29-444d-8a8a-d62bbbeb18b3.png">
+
+- Then click the webhooks panel and click on Add Webhook
+- Then use the public DNS or public IP of your Jenkins server and add “/github-webhook/” at the end, then select application/json as the content type. In the “Which events would you like to trigger this webhook?”, select the individual events and select pushes only and click on add webhook.
+  
+<img width="1188" alt="Ekran Resmi 2022-06-02 19 24 48" src="https://user-images.githubusercontent.com/91700155/171907453-d8a5d626-5589-48f1-a27e-1c306e982a32.png">
+  
+<img width="1044" alt="Ekran Resmi 2022-06-02 19 26 27" src="https://user-images.githubusercontent.com/91700155/171908219-88cc96e9-366d-41d1-b291-75cdeee90bf9.png">
+
+<img width="1097" alt="Ekran Resmi 2022-06-02 19 26 34" src="https://user-images.githubusercontent.com/91700155/171908103-2d39c7c2-337b-42ec-ab6c-97a5e176c39f.png">
+
   
   
   
   
-https://github.com/sedaatalay/Running-Jupyter-Notebook-on-AWS-EC2-Server
- 
+  
+  
+  
+  
+  
 <p> <br/ >
  
 ## Creating an sample in Jupyter Notebook
