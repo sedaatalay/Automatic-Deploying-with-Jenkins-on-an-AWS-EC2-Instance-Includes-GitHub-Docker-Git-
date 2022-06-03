@@ -85,8 +85,8 @@ Click on settings in your code repository:
 <img width="1097" alt="Ekran Resmi 2022-06-02 19 26 34" src="https://user-images.githubusercontent.com/91700155/171908103-2d39c7c2-337b-42ec-ab6c-97a5e176c39f.png">
 
 - Now, head over to Jenkins and click on New Item
-
-![Uploading Ekran Resmi 2022-06-02 19.31.25.png…]()
+  
+<img width="1326" alt="Ekran Resmi 2022-06-02 19 31 25" src="https://user-images.githubusercontent.com/91700155/171910100-6ce5c49b-67a5-477b-8754-cc587e1ba016.png">
 
 - Enter an Item name, Select Pipeline and click OK 
   
@@ -101,24 +101,21 @@ In the Branch Specifier, you can select master or any branch your code repositor
 
 <img width="1067" alt="Ekran Resmi 2022-06-02 19 46 23" src="https://user-images.githubusercontent.com/91700155/171909434-d2b268f5-2d8c-45e6-9fcf-070581ae2684.png">
 
-  
-  
-  
-  
-<p> <br/ >
- 
-```console
-import findspark
-findspark.init()
-import pyspark
-from pyspark import SparkConf, SparkContext
-from pyspark.sql import SparkSession
-from pyspark.sql.functions import *
-from random import randint, choice
-import string  
-```
+- Now let’s build the pipeline…
+<img width="858" alt="Ekran Resmi 2022-06-02 19 47 11" src="https://user-images.githubusercontent.com/91700155/171910232-9b8cfade-de31-48c9-a831-9d574d038c47.png">
+
+- It ran through all the stages and the build was successful.
 
   
+  
+- When you do little change in your code repository and push. If you go back to Jenkins you’ll see that it has already detected the changes made already and it automatically triggers another build.
+
+  
+And that's how you can use Jenkins to automate these processes. 
+
+- Next article is about of this project necessary code repository contents. To reach:
+  
+---- 
   
 #### Thank you :) 
 <p>  <br /><br />
