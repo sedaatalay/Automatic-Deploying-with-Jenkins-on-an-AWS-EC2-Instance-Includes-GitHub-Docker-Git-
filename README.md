@@ -83,7 +83,7 @@ Click on settings in your code repository:
 
 <img width="1097" alt="Ekran Resmi 2022-06-02 19 26 34" src="https://user-images.githubusercontent.com/91700155/171908103-2d39c7c2-337b-42ec-ab6c-97a5e176c39f.png">
  
-- Go to the Jenkins Dashboard->Manage Jenkins->Manage plugin then tap on the available and type Docker, you need to install docker as well as docker pipeline plugin. Also you can install the requirements for your project.
+- Go to the Jenkins Dashboard >> Manage Jenkins >> Manage plugin then tap on the available and type Docker, you need to install docker as well as docker pipeline plugin. Also you can install the requirements for your project.
   
 ![1_hKm3slIPamulZFO6_ZduWA](https://user-images.githubusercontent.com/91700155/171923914-db0e2834-1d1c-4fcc-b85d-c7e83bf13cdb.png)
 
