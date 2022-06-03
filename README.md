@@ -83,10 +83,6 @@ Click on settings in your code repository:
 
 <img width="1097" alt="Ekran Resmi 2022-06-02 19 26 34" src="https://user-images.githubusercontent.com/91700155/171908103-2d39c7c2-337b-42ec-ab6c-97a5e176c39f.png">
  
-- Go to the Jenkins Dashboard >> Manage Jenkins >> Manage plugin then tap on the available and type Docker, you need to install docker as well as docker pipeline plugin. Also you can install the requirements for your project.
-  
-![1_hKm3slIPamulZFO6_ZduWA](https://user-images.githubusercontent.com/91700155/171923914-db0e2834-1d1c-4fcc-b85d-c7e83bf13cdb.png)
-
 - Now, head over to Jenkins and click on New Item
   
 <img width="1326" alt="Ekran Resmi 2022-06-02 19 31 25" src="https://user-images.githubusercontent.com/91700155/171910100-6ce5c49b-67a5-477b-8754-cc587e1ba016.png">
@@ -104,6 +100,19 @@ In the Branch Specifier, you can select master or any branch your code repositor
 
 <img width="1067" alt="Ekran Resmi 2022-06-02 19 46 23" src="https://user-images.githubusercontent.com/91700155/171909434-d2b268f5-2d8c-45e6-9fcf-070581ae2684.png">
 
+## Building Docker Image using Jenkins Pipeline 
+Add docker plugin to Jenkins
+- Go to the Jenkins Dashboard >> Manage Jenkins >> Manage plugin then tap on the available and type Docker, you need to install docker as well as docker pipeline plugin. Also you can install the requirements for your project.
+  
+![1_hKm3slIPamulZFO6_ZduWA](https://user-images.githubusercontent.com/91700155/171923914-db0e2834-1d1c-4fcc-b85d-c7e83bf13cdb.png)
+
+## Jenkins Building Docker Image and Sending to Registry
+You can build this image to github jenkins_file
+- Pipeline explanation
+  - The job will have one step. It will run the docker build and use the jenkins build number in docker tag. With build number turn easeful to deploy or rollback based in jenkins.
+  
+<img width="780" alt="Ekran Resmi 2022-06-03 21 33 22" src="https://user-images.githubusercontent.com/91700155/171925336-209e83ed-85aa-4968-94d7-abe284ddd472.png">
+
 - Now let’s build the pipeline…
 <img width="858" alt="Ekran Resmi 2022-06-02 19 47 11" src="https://user-images.githubusercontent.com/91700155/171910232-9b8cfade-de31-48c9-a831-9d574d038c47.png">
 
@@ -119,9 +128,7 @@ sudo chmod 666 /var/run/docker.sock
 When you do little change in your code repository and push. If you go back to Jenkins you’ll see that it has already detected the changes made already and it automatically triggers another build.
 
 And that's how you can use Jenkins to automate these processes. 
-
-- Next article is about of this project necessary code repository contents. To reach:
-  - Building Docker Image using Jenkins Pipeline 
+  - 
   - Jenkins Building Docker Image and Sending to Registry
   
   
