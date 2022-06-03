@@ -83,6 +83,11 @@ Click on settings in your code repository:
 <img width="1044" alt="Ekran Resmi 2022-06-02 19 26 27" src="https://user-images.githubusercontent.com/91700155/171908219-88cc96e9-366d-41d1-b291-75cdeee90bf9.png">
 
 <img width="1097" alt="Ekran Resmi 2022-06-02 19 26 34" src="https://user-images.githubusercontent.com/91700155/171908103-2d39c7c2-337b-42ec-ab6c-97a5e176c39f.png">
+ 
+- Head over to Jenkins and click on Manage Jenkins >> Choose Manage Plugins >> Available section >> Install the requirements for your project.
+  
+<img width="1084" alt="Ekran Resmi 2022-06-03 20 56 43" src="https://user-images.githubusercontent.com/91700155/171920041-d266a4fc-ae88-4621-b8c1-a9a767a8453e.png">
+
 
 - Now, head over to Jenkins and click on New Item
   
@@ -121,6 +126,10 @@ And that's how you can use Jenkins to automate these processes.
   
 ---- 
   
+  
+  
+  
+
 #### Thank you :) 
 <p>  <br /><br />
 </p>
