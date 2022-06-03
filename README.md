@@ -24,8 +24,6 @@ Jenkins has some features that really sell it as a CI/CD tool. These are some of
 - Open-source
 - Easy distribution
   
-It is evident from the above points that Jenkins has a very high demand globally. Before we dive into Jenkins it is important to know what is Continuous Integration and why it was introduced.
-  
 ## Before the practical side, there are some important terms need to know.
   
 ## Jenkins Job  
@@ -34,11 +32,27 @@ Creating Job is very easy in Jenkins but in a software environment, you may not 
   
   
 ## Jenkins Pipeline
+In simple words, a pipeline is a set of interconnected tasks executed in a specific order. Additionally, Jenkins Pipeline is a plugin package that helps users implement and integrate continuous delivery pipelines into Jenkins. You can also use Pipeline to create complex or simple deployment pipelines as code through the Pipeline domain-specific language (DSL) syntax. Then, the following states represent a continuous delivery Line.
+
+Types of Jenkins Pipeline:
+
+- Declarative pipeline: This is a feature that supports the pipeline as a code concept. It makes the pipeline code easier to read and write. This code is written in a Jenkinsfile which can be checked into a source control management system such as Git.
+  
+- Scripted pipeline: This is one of the old ways of writing the code. Using this method, the pipeline code is written on the Jenkins User Interface instance instead of writing it in a file. Though both these pipelines perform the same function and they use the same scripting language(Groovy).
+
+![1 Jenkins Continuous Deliver Pipeline](https://user-images.githubusercontent.com/91700155/171900783-a8ff2362-3b2c-4d75-a9c1-8f3072906b57.png)  
+
+## In this example, we create a trained Machine Learning model that assisting the doctor's decision-making process on disease prediction by detecting disease symptoms who coming from the patient, I deployed as an API using Flask .
+I structured my Jenkins pipeline to:
+
+Pull changes from the repository when a commit is made >>> Build Docker Image >>> Built the model.
   
   
 ## Steps
 ### Installation 
-This is part 2 of my series on deploying Jenkins to create an efficient CI/CD Pipeline. In part one, I covered installing and launching Jenkins on a AWS EC2 instance. You can find part one link below:
+Install Jenkins, Git and Docker in your instance.Startup a Jenkins server and install Git, Docker, Pipeline and build plugins.
+  
+This is part 2 of my series on deploying Jenkins to create an efficient CI/CD Pipeline. In part one, I covered installing and launching Jenkins,Git,Docker on a AWS EC2 instance. You can find part one link below:
 
 ---------
   
