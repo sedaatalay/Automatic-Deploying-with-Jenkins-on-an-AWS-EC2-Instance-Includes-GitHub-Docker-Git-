@@ -49,10 +49,10 @@ Pull changes from the repository when a commit is made >>> Build Docker Image >>
   
 ## Steps
 ### Installation 
-Install Jenkins, Git and Docker in your instance.Startup a Jenkins server and install Git, Docker, Pipeline and build plugins.
+Install Jenkins, Git and Docker in your instance. Startup a Jenkins server and install Git, Docker, Pipeline and build plugins.
   
 This is part 2 of my series on deploying Jenkins to create an efficient CI/CD Pipeline. 
-In part one, I covered installing and launching Jenkins,Git,Docker on a AWS EC2 instance. You can find part one link below:
+In part one, I covered installing and launching Jenkins,Git,Docker,Plugins on a AWS EC2 instance. You can find part one link below:
 
 ---------
   
