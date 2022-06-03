@@ -51,7 +51,8 @@ Pull changes from the repository when a commit is made >>> Build Docker Image >>
 ### Installation 
 Install Jenkins, Git and Docker in your instance.Startup a Jenkins server and install Git, Docker, Pipeline and build plugins.
   
-This is part 2 of my series on deploying Jenkins to create an efficient CI/CD Pipeline. In part one, I covered installing and launching Jenkins,Git,Docker on a AWS EC2 instance. You can find part one link below:
+This is part 2 of my series on deploying Jenkins to create an efficient CI/CD Pipeline. 
+In part one, I covered installing and launching Jenkins,Git,Docker on a AWS EC2 instance. You can find part one link below:
 
 ---------
   
@@ -67,9 +68,10 @@ My working directory:
 ├── ML_model
 │   └── first_model.sav
 └── requirements.txt
-  
-Next, we have to tell Jenkins to start building the pipeline whenever a change is made to the code repository. To do this, you need to add the Jenkins webhook to the GitHub repository for Github to contact Jenkins if there is a change in the code. To do this:
 
+<img width="203" alt="Ekran Resmi 2022-06-03 19 19 53" src="https://user-images.githubusercontent.com/91700155/171905592-f2ea6017-d0d1-4da9-b48b-413b66369b07.png">
+  
+Next, we have to tell Jenkins to start building the pipeline whenever a change is made to the code repository. To do this, you need to add the Jenkins webhook to the GitHub repository for Github to contact Jenkins if there is a change in the code. 
 Click on settings in your code repository:
   
   
