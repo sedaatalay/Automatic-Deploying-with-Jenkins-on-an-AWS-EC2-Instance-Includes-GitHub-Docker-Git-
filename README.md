@@ -45,8 +45,7 @@ Types of Jenkins Pipeline:
 In this example, we create a trained Machine Learning model that assisting the doctor's decision-making process on disease prediction by detecting disease symptoms who coming from the patient, I deployed as an API using Flask .
 I structured my Jenkins pipeline to:
 
-Pull changes from the repository when a commit is made >>> Build Docker Image >>> Built the model.
-  
+Pull changes from the repository when a commit is made >>> Build Docker Image >>> Built the model. 
   
 ## Steps
 ### Installation 
@@ -56,8 +55,24 @@ This is part 2 of my series on deploying Jenkins to create an efficient CI/CD Pi
 
 ---------
   
-  
+Push the code to a repository, in this article I used Github. You can find the code for this article here.
 
+- https://github.com/sedaatalay/jenk_deneme
+  
+My working directory:
+.
+├── app.py
+├── Dockerfile
+├── Jenkinsfile
+├── ML_model
+│   └── first_model.sav
+└── requirements.txt
+  
+Next, we have to tell Jenkins to start building the pipeline whenever a change is made to the code repository. To do this, you need to add the Jenkins webhook to the GitHub repository for Github to contact Jenkins if there is a change in the code. To do this:
+
+Click on settings in your code repository:
+  
+  
   
   
   
