@@ -57,8 +57,7 @@ In part one, I covered installing and launching Jenkins,Git,Docker on a AWS EC2 
 ---------
   
 - Push the code to a repository, in this article I used Github. You can find the code for this article here.
-
- - https://github.com/sedaatalay/jenk_deneme
+  - https://github.com/sedaatalay/jenk_deneme
   
 My working directory:
 .
@@ -85,7 +84,8 @@ Click on settings in your code repository:
 
 <img width="1097" alt="Ekran Resmi 2022-06-02 19 26 34" src="https://user-images.githubusercontent.com/91700155/171908103-2d39c7c2-337b-42ec-ab6c-97a5e176c39f.png">
 
-  
+- Now, head over to Jenkins and click on New Item
+
   
   
   
