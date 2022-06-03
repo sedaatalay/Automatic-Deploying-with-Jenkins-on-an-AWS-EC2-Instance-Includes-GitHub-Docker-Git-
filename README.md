@@ -40,8 +40,8 @@ Types of Jenkins Pipeline:
   
 - Scripted pipeline: This is one of the old ways of writing the code. Using this method, the pipeline code is written on the Jenkins User Interface instance instead of writing it in a file. Though both these pipelines perform the same function and they use the same scripting language(Groovy).
   
-![1 Jenkins Continuous Deliver Pipeline](https://user-images.githubusercontent.com/91700155/171903863-79c8192c-6e04-41a7-b039-7e99ccfb380b.png)
-  
+![1 Jenkins Continuous Deliver Pipeline 2](https://user-images.githubusercontent.com/91700155/171913858-2d5a00ab-dfe9-4055-9848-b9c4fd73b4ee.png)
+ 
 In this example, we create a trained Machine Learning model that assisting the doctor's decision-making process on disease prediction by detecting disease symptoms who coming from the patient, I deployed as an API using Flask .
 I structured my Jenkins pipeline to:
 
