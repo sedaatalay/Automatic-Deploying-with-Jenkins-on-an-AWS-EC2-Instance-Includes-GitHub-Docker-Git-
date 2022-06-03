@@ -39,7 +39,9 @@ Types of Jenkins Pipeline:
 - Declarative pipeline: This is a feature that supports the pipeline as a code concept. It makes the pipeline code easier to read and write. This code is written in a Jenkinsfile which can be checked into a source control management system such as Git.
   
 - Scripted pipeline: This is one of the old ways of writing the code. Using this method, the pipeline code is written on the Jenkins User Interface instance instead of writing it in a file. Though both these pipelines perform the same function and they use the same scripting language(Groovy).
-![1 Jenkins Continuous Deliver Pipeline](https://user-images.githubusercontent.com/91700155/171900783-a8ff2362-3b2c-4d75-a9c1-8f3072906b57.png)  
+  
+![1 Jenkins Continuous Deliver Pipeline](https://user-images.githubusercontent.com/91700155/171903863-79c8192c-6e04-41a7-b039-7e99ccfb380b.png)
+  
 In this example, we create a trained Machine Learning model that assisting the doctor's decision-making process on disease prediction by detecting disease symptoms who coming from the patient, I deployed as an API using Flask .
 I structured my Jenkins pipeline to:
 
