@@ -27,12 +27,12 @@ Jenkins has some features that really sell it as a CI/CD tool. These are some of
   
 ## Before the practical side, there are some important terms need to know.
   
-## Jenkins Job  
+## - Jenkins Job  
 Jobs are the heart of Jenkins' build process. In Jenkins, a job can be thought of as a specific task to achieve a necessary purpose. We can also create and build these jobs to test our app or project. Jenkins provides the following types of build jobs that a user can create based on need.
 Creating Job is very easy in Jenkins but in a software environment, you may not build a single job but instead, you’ll be doing what is referred to as a pipeline.
   
   
-## Jenkins Pipeline
+## - Jenkins Pipeline
 In simple words, a pipeline is a set of interconnected tasks executed in a specific order. Additionally, Jenkins Pipeline is a plugin package that helps users implement and integrate continuous delivery pipelines into Jenkins. You can also use Pipeline to create complex or simple deployment pipelines as code through the Pipeline domain-specific language (DSL) syntax. Then, the following states represent a continuous delivery Line.
 
 Types of Jenkins Pipeline:
