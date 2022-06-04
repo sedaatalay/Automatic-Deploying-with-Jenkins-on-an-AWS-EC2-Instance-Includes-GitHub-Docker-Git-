@@ -75,7 +75,7 @@ Click on settings in your code repository:
   
 <img width="984" alt="Ekran Resmi 2022-06-03 19 22 17" src="https://user-images.githubusercontent.com/91700155/171906611-1af366fe-1f29-444d-8a8a-d62bbbeb18b3.png">
 
-- Then click the webhooks panel and click on Add Webhook
+- Click the webhooks panel and click on Add Webhook
 - Then use the public DNS or public IP of your Jenkins server and add “/github-webhook/” at the end, then select application/json as the content type. In the “Which events would you like to trigger this webhook?”, select the individual events and select pushes only and click on add webhook.
   
 <img width="1188" alt="Ekran Resmi 2022-06-02 19 24 48" src="https://user-images.githubusercontent.com/91700155/171907453-d8a5d626-5589-48f1-a27e-1c306e982a32.png">
