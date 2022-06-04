@@ -129,8 +129,6 @@ sudo chmod 666 /var/run/docker.sock
 When you do little change in your code repository and push. If you go back to Jenkins you’ll see that it has already detected the changes made already and it automatically triggers another build.
 
 And that's how you can use Jenkins to automate these processes. 
-  - 
-  - Jenkins Building Docker Image and Sending to Registry
   
   
 ---- 
